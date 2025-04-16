@@ -78,6 +78,8 @@ The following table summarizes when an alternative model may be a better choice:
 
 ## {% data variables.copilot.copilot_gpt_41 %}
 
+{% data reusables.copilot.gpt-41-public-preview-note %}
+
 OpenAI’s latest model, {% data variables.copilot.copilot_gpt_41 %}, is now available in {% data variables.product.prodname_copilot %} and {% data variables.product.prodname_github_models %}, bringing OpenAI’s newest model to your coding workflow. This model outperforms GPT-4o across the board, with major gains in coding, instruction following, and long-context understanding. It has a larger context window and features a refreshed knowledge cutoff of June 2024.
 
 OpenAI has optimized {% data variables.copilot.copilot_gpt_41 %} for real-world use based on direct developer feedback about: frontend coding, making fewer extraneous edits, following formats reliably, adhering to response structure and ordering, consistent tool usage, and more. This model is a strong default choice for common development tasks that benefit from speed, responsiveness, and general-purpose reasoning.
@@ -366,7 +368,7 @@ The following table summarizes the strengths of {% data variables.copilot.copilo
 
 {% rowheaders %}
 
-| Task                      | Description                                                       | Why {% data variables.copilot.copilot_gemini_flash %} is a good fit |
+| Task                      | Description                                                       | Why {% data variables.copilot.copilot_gemini_25_pro %} is a good fit |
 |---------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------|
 | Complex code generation   | Write full functions, classes, or multi-file logic.               | Provides better structure, consistency, and fewer logic errors.     |
 | Debugging complex systems | Isolate and fix performance bottlenecks or multi-file issues.     | Provides step-by-step analysis and high reasoning accuracy.         |
